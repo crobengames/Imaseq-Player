@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30309.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Imaseq", "Imaseq\Imaseq.csproj", "{F48740B3-319E-40B5-A1B5-14B34FF4CEDF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F48740B3-319E-40B5-A1B5-14B34FF4CEDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F48740B3-319E-40B5-A1B5-14B34FF4CEDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F48740B3-319E-40B5-A1B5-14B34FF4CEDF}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{F48740B3-319E-40B5-A1B5-14B34FF4CEDF}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C6928B70-135E-48E3-A3DA-C322EA2B7CF2}
+	EndGlobalSection
+EndGlobal
