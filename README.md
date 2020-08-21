@@ -1,3 +1,5 @@
+![Cover](images/imaseq-player-cover.png)
+
 # WHAT IS IMASEQ PLAYER?
 
 Imaseq Player is a free and open-source, image sequence player, and animated GIF maker for Windows 10, released under the MIT license. The developer (Croben) originally made Imaseq Player, to preview frame by frame animations made within Inkscape. Imaseq Player can play and create GIFs from images with PNG, JPG, and JPEG extensions.
@@ -7,6 +9,15 @@ Imaseq Player is a free and open-source, image sequence player, and animated GIF
 
     • Play image sequence of PNG, JPG, and JPEG files.
     • Create an animated GIF from the image sequence.
+
+
+# VIDEO
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=UIddIYoGnCE" target="_blank"><img src="http://img.youtube.com/vi/UIddIYoGnCE/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="853" height="480" border="10" /></a>
+
+
+[![DOWNLOAD](images/imaseq-player-download.png)](https://croben.itch.io/imaseq-player/purchase?popup=1)
 
 
 # HOW IT WORKS?
@@ -49,3 +60,5 @@ Operating System: Windows 10
 1. Avoid playing large images in high quantities.
 2. On a lower-end computer, consider disabling “Edit While Playing.”
 3. Name the images according to their order, for example, run1, run2, and so on.
+
+[![DOWNLOAD](images/imaseq-player-download.png)](https://croben.itch.io/imaseq-player/purchase?popup=1)
