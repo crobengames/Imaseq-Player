@@ -7,8 +7,8 @@ Imaseq Player is a free and open-source, image sequence player, and animated GIF
 
 # FEATURES
 
-    • Play image sequence of PNG, JPG, and JPEG files.
-    • Create an animated GIF from the image sequence.
+   - Play image sequence of PNG, JPG, and JPEG files.
+   - Create an animated GIF from the image sequence.
 
 
 # VIDEO
@@ -27,32 +27,32 @@ Imaseq Player works by looking for supported images through the user-provided di
 
 # LIMITATIONS
 
-    • The window size is fixed.
-    • Supported images are limited to PNG, JPG, and JPEG.
-    • The minimum image dimension is 8×8 pixels.
-    • The maximum image dimension is 1920×1080 pixels.
-    • The maximum number of playable image is one thousand.
-    • The maximum image display is 512 pixels.
+   - The window size is fixed.
+   - Supported images are limited to PNG, JPG, and JPEG.
+   - The minimum image dimension is 8×8 pixels.
+   - The maximum image dimension is 1920×1080 pixels.
+   - The maximum number of playable image is one thousand.
+   - The maximum image display is 512 pixels.
 
 
 # SYSTEM REQUIREMENTS
 
-Operating System: Windows 10
-.NET Framework: 4.0 and above
+- Operating System: Windows 10
+- .NET Framework: 4.0 and above
 
 
 # HOW TO USE?
 
 ## Playing:
-    • Place images in one folder.
-    • Copy and paste the directory of the images, or locate it by clicking the folder icon.
-    • Click play or press space on the keyboard.
+   - Place images in one folder.
+   - Copy and paste the directory of the images, or locate it by clicking the folder icon.
+   - Click play or press space on the keyboard.
 
 ## Creating GIF:
-    • Once the status is in playing or paused, you can press the save icon. 
-    • Select a location to save the GIF.
-    • Name it.
-    • Click Save.
+   - Once the status is in playing or paused, you can press the save icon. 
+   - Select a location to save the GIF.
+   - Name it.
+   - Click Save.
 
 
 # FRIENDLY TIPS
