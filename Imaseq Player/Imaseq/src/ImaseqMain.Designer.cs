@@ -41,14 +41,14 @@
             this.nextButton = new System.Windows.Forms.Button();
             this.pausePlayButton = new System.Windows.Forms.Button();
             this.stopButton = new System.Windows.Forms.Button();
+            this.speedSlider = new System.Windows.Forms.TrackBar();
             this.lblFrameSlider = new System.Windows.Forms.Label();
             this.progressBar = new System.Windows.Forms.ProgressBar();
             this.picBox = new System.Windows.Forms.PictureBox();
             this.lblFPS = new System.Windows.Forms.Label();
-            this.speedSlider = new System.Windows.Forms.TrackBar();
             ((System.ComponentModel.ISupportInitialize)(this.frameSlider)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.speedSlider)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBox)).BeginInit();
             this.SuspendLayout();
             // 
             // clock
@@ -350,6 +350,21 @@
             this.stopButton.MouseEnter += new System.EventHandler(this.stopButton_MouseEnter);
             this.stopButton.MouseLeave += new System.EventHandler(this.stopButton_MouseLeave);
             // 
+            // speedSlider
+            // 
+            this.speedSlider.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.speedSlider.Location = new System.Drawing.Point(332, 55);
+            this.speedSlider.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.speedSlider.Maximum = 60;
+            this.speedSlider.Minimum = 1;
+            this.speedSlider.Name = "speedSlider";
+            this.speedSlider.Size = new System.Drawing.Size(180, 45);
+            this.speedSlider.TabIndex = 9;
+            this.speedSlider.TickStyle = System.Windows.Forms.TickStyle.None;
+            this.imaseqToolTip.SetToolTip(this.speedSlider, "Speed");
+            this.speedSlider.Value = 10;
+            this.speedSlider.Scroll += new System.EventHandler(this.speedBar_Scroll);
+            // 
             // lblFrameSlider
             // 
             this.lblFrameSlider.AutoSize = true;
@@ -403,21 +418,6 @@
             this.lblFPS.Text = "FPS: 10";
             this.lblFPS.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // speedSlider
-            // 
-            this.speedSlider.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.speedSlider.Location = new System.Drawing.Point(332, 55);
-            this.speedSlider.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.speedSlider.Maximum = 60;
-            this.speedSlider.Minimum = 1;
-            this.speedSlider.Name = "speedSlider";
-            this.speedSlider.Size = new System.Drawing.Size(180, 45);
-            this.speedSlider.TabIndex = 9;
-            this.speedSlider.TickStyle = System.Windows.Forms.TickStyle.None;
-            this.imaseqToolTip.SetToolTip(this.speedSlider, "Speed");
-            this.speedSlider.Value = 10;
-            this.speedSlider.Scroll += new System.EventHandler(this.speedBar_Scroll);
-            // 
             // ImaseqMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -453,8 +453,8 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Imaseq Player 1.0.0";
             ((System.ComponentModel.ISupportInitialize)(this.frameSlider)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.speedSlider)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
